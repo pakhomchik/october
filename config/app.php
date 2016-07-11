@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -68,7 +68,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -114,7 +114,7 @@ return [
     'providers' => array_merge(include(base_path('modules/system/providers.php')), [
 
         // 'Illuminate\Html\HtmlServiceProvider', // Example
-
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
         'System\ServiceProvider',
     ]),
 
